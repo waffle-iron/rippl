@@ -1,6 +1,10 @@
-hash: c8bc6603024377650567a6e9561917dee61c40c8cc39ea212f38869bf275224f
-updated: 2016-08-15T21:43:09.729157154-04:00
+hash: 5825ab4f5eeedb1ef45030c159970f33efb4470fbbe832cf0f419a0e1b98d5b3
+updated: 2016-08-16T17:35:28.494255145-04:00
 imports:
 - name: github.com/hashicorp/go-plugin
   version: 8cf118f7a2f0c7ef1c82f66d4f6ac77c7e27dc12
+- name: github.com/spf13/cobra
+  version: 7c674d9e72017ed25f6d2b5e497a1368086b6a6f
+  subpackages:
+  - cobra
 testImports: []
