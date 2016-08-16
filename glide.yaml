@@ -1,0 +1,3 @@
+package: github.com/rippl-automation/rippl
+import:
+- package: github.com/hashicorp/go-plugin
