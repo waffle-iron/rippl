@@ -1,3 +1,7 @@
+.PHONY: default
+default: build ;
+.DEFAULT_GOAL := build
+
 deps:
 	glide install
 
