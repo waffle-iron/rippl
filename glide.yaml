@@ -7,3 +7,5 @@ import:
 - package: github.com/spf13/viper
 - package: google.golang.org/grpc
   version: ~1.0.0
+- package: github.com/ventu-io/slf
+- package: github.com/ventu-io/slog

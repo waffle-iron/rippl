@@ -1,0 +1,14 @@
+language: go
+
+go:
+  - 1.7
+  - tip
+
+go_import_path: github.com/ripplxyz/rippl
+
+pre_install:
+  - sudo add-apt-repository ppa:masterminds/glide
+  - sudo apt-get update
+  - sudo apt-get install glide
+
+install: make deps

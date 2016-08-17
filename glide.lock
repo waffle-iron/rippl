@@ -1,5 +1,5 @@
-hash: e2b4fca5f3273cd6703dec96241c29fffe5bc1954b2e38a98f59f092523ff020
-updated: 2016-08-17T12:53:39.096105487-04:00
+hash: 2e478a0a0e9e75309822ba23a0ab922952485b107c3b90905ee240c98b26cdd3
+updated: 2016-08-17T16:33:26.495512386-04:00
 imports:
 - name: github.com/BurntSushi/toml
   version: 99064174e013895bbd9b025c31100bd1d9b590ca
@@ -34,6 +34,10 @@ imports:
   version: a22138067af1c4942683050411a841ade67fe1eb
 - name: github.com/pkg/sftp
   version: a71e8f580e3b622ebff585309160b1cc549ef4d2
+- name: github.com/ripplxyz/rippl
+  version: fc1f8abeb1485c288a8bd033e8f6325b4894e932
+  subpackages:
+  - lib/rpc
 - name: github.com/spf13/afero
   version: b28a7effac979219c2a2ed6205a4d70e4b1bcd02
   subpackages:
@@ -51,6 +55,10 @@ imports:
   version: 4f9190456aed1c2113ca51ea9b89219747458dc1
 - name: github.com/spf13/viper
   version: 654fc7bb54d0c138ef80405ff577391f79c0c32d
+- name: github.com/ventu-io/slf
+  version: 43c1a8878c1f98a1a88268c6805080b3c6be945b
+- name: github.com/ventu-io/slog
+  version: 82f9bc9959769f12189886094adc6b986bba085a
 - name: golang.org/x/crypto
   version: a8a4eedf8c97852389ea5f2c252660d3616af041
   subpackages:
@@ -79,9 +87,9 @@ imports:
 - name: google.golang.org/grpc
   version: 13edeeffdea7a41d5aad96c28deb4c7bd01a9397
   subpackages:
+  - grpclog
   - codes
   - credentials
-  - grpclog
   - internal
   - metadata
   - naming
