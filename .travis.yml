@@ -6,7 +6,7 @@ go:
 
 go_import_path: github.com/ripplxyz/rippl
 
-pre_install:
+before_install:
   - sudo add-apt-repository ppa:masterminds/glide
   - sudo apt-get update
   - sudo apt-get install glide
