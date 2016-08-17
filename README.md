@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/ripplxyz/rippl.png?label=ready&title=Ready)](https://waffle.io/ripplxyz/rippl)
 Building
 ===
 
