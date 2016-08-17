@@ -1,10 +1,14 @@
-hash: 62df228fa6d39a1e2651996b0872bd7cee3d8e435c29580ad8027a2e1c417777
-updated: 2016-08-16T17:47:11.628387793-04:00
+hash: 5149ec14d56858638f2a6370a587124871ae1006c30377139deb2592e2ed2657
+updated: 2016-08-17T12:21:13.565377817-04:00
 imports:
 - name: github.com/BurntSushi/toml
   version: 99064174e013895bbd9b025c31100bd1d9b590ca
 - name: github.com/fsnotify/fsnotify
   version: f12c6236fe7b5cf6bcf30e5935d08cb079d78334
+- name: github.com/golang/protobuf
+  version: 7390af9dcd3c33042ebaf2474a1724a83cf1a7e6
+  subpackages:
+  - proto
 - name: github.com/hashicorp/go-plugin
   version: 8cf118f7a2f0c7ef1c82f66d4f6ac77c7e27dc12
 - name: github.com/hashicorp/hcl
@@ -54,6 +58,15 @@ imports:
   - curve25519
   - ed25519
   - ed25519/internal/edwards25519
+- name: golang.org/x/net
+  version: 07b51741c1d6423d4a6abab1c49940ec09cb1aaf
+  subpackages:
+  - context
+  - http2
+  - trace
+  - http2/hpack
+  - lex/httplex
+  - internal/timeseries
 - name: golang.org/x/sys
   version: a646d33e2ee3172a661fc09bca23bb4889a41bc8
   subpackages:
@@ -63,6 +76,17 @@ imports:
   subpackages:
   - transform
   - unicode/norm
+- name: google.golang.org/grpc
+  version: c2781963b3af261a37e0f14fdcb7c1fa13259e1f
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - transport
+  - peer
 - name: gopkg.in/yaml.v2
   version: e4d366fc3c7938e2958e662b4258c7a89e1f0e3e
 testImports: []

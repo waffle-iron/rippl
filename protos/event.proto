@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "../lib/rpc";
+
+package rippl;
+
+service Rippl {
+    rpc GetEvents(Plugin) returns (stream Event) {}
+}
+
+message Event {
+    enum EventType {
+        COMMAND = 0;
+        MESSAGE = 1;
+    }
+    EventType eventType = 1;
+}
+
+message Plugin {
+    string name = 1;
+}
