@@ -1,7 +1,7 @@
 deps:
 	glide install
 
-proto:
+proto: lib/rpc/*.pb.go
 	cd protos && protoc --go_out=plugins=grpc:. event.proto
 
 build: deps proto
