@@ -9,7 +9,7 @@ proto: lib/rpc/*.pb.go
 	cd protos && protoc --go_out=plugins=grpc:. event.proto
 
 test:
-    true
+	true
 
 build: deps
 	cd app && go build .
