@@ -5,3 +5,5 @@ import:
   subpackages:
   - cobra
 - package: github.com/spf13/viper
+- package: google.golang.org/grpc
+  version: ~1.0.0
