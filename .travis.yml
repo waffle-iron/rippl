@@ -14,3 +14,5 @@ before_install:
   - sudo apt-get -y install glide
 
 install: make deps
+
+script: make travis
